@@ -1,0 +1,52 @@
+.blocoTab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+table {
+    width: 100%;
+    max-width: 30rem;
+    text-align: center;
+    height: 30vh;
+    background-color: #0e0d0d;
+    border-radius: 5px;
+}
+
+td {
+    font-weight: bold;
+}
+
+
+p {
+    margin-block: 20px;
+}
+
+table th {
+    color: white;
+    background-color: #292929;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+tbody tr {
+    background-color: black;
+}
+
+
+@media (max-width: 768px) {
+    .blocoTab {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .table {
+        max-width: 100%; 
+    }
+
+}

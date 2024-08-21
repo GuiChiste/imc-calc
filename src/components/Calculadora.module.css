@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 77vh;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content input {
+    width: 40rem;
+    height: 2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.content input::placeholder {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+
+
+.content button {
+    width: 41rem;
+    height: 2.5rem;
+}
+
+.resultado {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0.6rem;
+}
